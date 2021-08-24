@@ -14,7 +14,7 @@ echo $array_month[7];
 $hello = "Hello";
 $name = "Takumi";
 $world = "‘s World!";
-$hello. $name. $world;
+ echo $hello. $name. $world;
 
 //4. $tech_boostに “tech “という文字列が代入されています。複合演算を使って、echo $tech_boost:と実行すると「tech boost」と表示されるように実装してみましょう。
 $tech_boost='tech';
