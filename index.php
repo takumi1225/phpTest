@@ -14,7 +14,7 @@ echo $array_month[7];
 $hello = "Hello";
 $name = "Takumi";
 $world = "‘s World!";
-$hello. $name. $world;
+ echo $hello. $name. $world;
 
 //4. $tech_boostに “tech “という文字列が代入されています。複合演算を使って、echo $tech_boost:と実行すると「tech boost」と表示されるように実装してみましょう。
 $tech_boost='tech';
@@ -41,51 +41,4 @@ $calendar_2020 = [
 // 12月を表示する
 echo $calendar_2020["December"];
 
-?>
-
-<?php
-$height = 160;
-if ($height < 150) {
-  echo "150cm 未満の方はご乗車できません。";
-}
-
-$height = 160;
-if ($height < 150) {
-  echo "150cm 未満の方はご乗車できません。";
-} else {
-  echo "ご乗車になれます。";
-}
-
-$height = 230;
-if ($height < 150) {
-  echo "150cm 未満の方はご乗車できません。";
-} else if ($height >= 200){
-  echo "200cm 以上の方はご乗車できません。";
-} else {
-  echo ($height < 150) ? "150cm 未満の方はご乗車できません。" : "ご乗車になれます。";;
-}
-
-$weekday = "月曜";
-switch ($weekday) {
-  case "月曜":
-    echo "可燃ごみの日です。";
-    break;
-  case "水曜":
-    echo "資源ごみの日です。";
-    break;
-  default:
-    echo "回収はありません。";
-    break;
-}
-
-for($i = 0; $i < 10; $i++){
-  echo $i;
-}
-
-$total = 0;
-echo $total;
-for ($i = 0; $i <= 100; $i++) {
-  $total += $i;
-}
-echo $total;
 ?>
